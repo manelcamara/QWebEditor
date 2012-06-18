@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<cuestionario idioma="es_ES" presentacion="Este tutorial explica cómo crear o editar cuestionarios de autoevaluación con Q?WebEditor" tipoCuestionario="tutorial" titulo="Crear o editar cuestionarios de autoevaluación con QWebEditor">
+  <pregunta>
+    <textoCortoPregunta>Elegir idioma y ver presentación del editor</textoCortoPregunta>
+    <textoPregunta>Al iniciar Q?WebEditor, la aplicación solicita que se elija un idioma para el editor. Una vez hecho, el editor presenta una pantalla informativa con datos sobre el autor y la licencia de distribución del programa. Al aceptar, la aplicación presenta el menú principal.</textoPregunta>
+    <imagenPregunta>PresentacioIdioma.jpg</imagenPregunta>
+  </pregunta>
+  <pregunta>
+    <textoCortoPregunta>Menú principal: crear nou cuestionario o editar uno existente</textoCortoPregunta>
+    <textoPregunta>En el menú principal, se puede elegir si se quiere crear un nuevo cuestionario de autoevaluación o editar uno existente. En el primer caso, el editor conduce a la pantalla de configuración de un nuevo cuestionario (ver 'Configurar cuestionario'). En el segundo caso, el editor permite navegar por la estructura de archivos locales y localizar el paquete Scorm a editar (fichero zip). Si el fichero es válido, el editor conduce a la pantalla 'Editar cuestionario', que ya tiene cargado en memoria el cuestionario fuente.</textoPregunta>
+    <imagenPregunta>NouEditarAutoavaluacio.jpg</imagenPregunta>
+  </pregunta>
+  <pregunta>
+    <textoCortoPregunta>Configurar cuestionario</textoCortoPregunta>
+    <textoPregunta>Se llega a esta pantalla si el usuario ha elegido la opción de crear un nuevo cuestionario. En ella, el usuario puede especificar los datos básicos del nuevo cuestionario: título, texto de presentacón e idioma.</textoPregunta>
+    <imagenPregunta>ConfiguracioQuestionari.jpg</imagenPregunta>
+  </pregunta>
+  <pregunta>
+    <textoCortoPregunta>Editar cuestionario</textoCortoPregunta>
+    <textoPregunta>Ésta es la pantalla principal en la edición de un cuestionario, ya sea nuevo o existente. Permite:
+- añadir una nueva pregunta
+- editar una pregunta existente (eligiéndola del desplegable 'preguntas')
+- guardar el cuestionario (siempre que tenga un mínimo de una pregunta con al menos una respuesta correcta)
+- acceder a la opción de ayuda (abre la ayuda en el navegador web del usuario)
+- salir sin guardar el cuestionario
+La parte inferior de la pantalla contiene un visualizador que permite monitorizar el estado y los cambios del cuestionario a lo largo del proceso de edición.</textoPregunta>
+    <imagenPregunta>EdicioQuestionari.jpg</imagenPregunta>
+  </pregunta>
+  <pregunta>
+    <textoCortoPregunta>Editar pregunta</textoCortoPregunta>
+    <textoPregunta>Se llega a esta pantala desde 'Editar cuestionario'. Aparecerà vacía en caso de una nueva pregunta, y con datos cargados en caso de edición de una pregunta existente. Una pregunta se compone de: texto, imagen (opcional) y conjunto de respuestas. Las opciones disponibles son:
+- inserir o modificar texto
+- elegir o eliminar imagen (gif o jpg)
+- guardar la pregunta
+- eliminar la pregunta
+- añadir o editar respuesta
+- acceder a la ayuda (se abre en el navegador web del usuari)
+- salir sin guardar la pregunta (la aplicación devuelve a 'Editar cuestionario')
+La parte inferior de la pantalla contiene un visualitador que permite monitorizar el estado y los cambios del cuestionario a lo largo del proceso de edición.</textoPregunta>
+    <imagenPregunta>EdicioPregunta.jpg</imagenPregunta>
+  </pregunta>
+  <pregunta>
+    <textoCortoPregunta>Editar respuesta</textoCortoPregunta>
+    <textoPregunta>Se llega a esta pantalla desde 'Editar pregunta'. La pantalla estará vacía si la respuesta es nueva, y presentarà datos si se està editando una pregunta existente. Una resposta se compone de un texto y un tipo (correcta, incorrecta). La pantalla permite:
+- inserir o modificar texto
+- marcar o cambiar el tipo de respuesta
+- guardar la respuesta
+- eliminar la respuesta
+- acceder a la ayuda (se abre en el navegador del usuario)
+- salir sin guardar la respuesta (la aplicación vuelve a 'Editar pregunta')</textoPregunta>
+    <imagenPregunta>EdicioResposta.jpg</imagenPregunta>
+  </pregunta>
+  <pregunta>
+    <textoCortoPregunta>Ejemplo cuestionario resultante</textoCortoPregunta>
+    <textoPregunta>Esta pantalla muestra el resultado de un cuestionario de autoevaluación: pantallas pregunta/respuestas e informe final de resultados.</textoPregunta>
+    <imagenPregunta>ExempleAutoavaluacio.jpg</imagenPregunta>
+  </pregunta>
+</cuestionario>

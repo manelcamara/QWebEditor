@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<cuestionario idioma="es_ES" presentacion="Este tutorial explica como crear o editar tutoriales web con Q?WebEditor" tipoCuestionario="tutorial" titulo="Crear o editar tutoriales con QWebEditor">
+  <pregunta>
+    <textoCortoPregunta>Elegir idioma y ver presentación del editor</textoCortoPregunta>
+    <textoPregunta>Al ejecutar Q?WebEditor, la aplicación solicita que se elija el idioma del editor. Una vez hecho, el editor presenta una pantalla informativa con datos sobre el autor y la licencia de distribución del programa. Al aceptar, la aplicación presenta el menú principal.</textoPregunta>
+    <imagenPregunta>PresentacioIdioma.jpg</imagenPregunta>
+  </pregunta>
+  <pregunta>
+    <textoCortoPregunta>Menú principal: crear nuevo tutorial o editar uno existente</textoCortoPregunta>
+    <textoPregunta>En el menú principal se puede elegir si se quiere hacer un tutorial nuevo o editar uno existente. En el primer caso, el editor conduce a la pantalla de configuración de un nuevo tutorial (ver 'Configurar tutorial'). En el segundo caso, el editor permite navegar por la estructura de archivos locales y localizar el paquete scorm a editar (fichero zip). Si el fichero es válido, el editor conduce a la pantalla 'Editar tutorial', que ya tiene cargado en memoria el tutorial fuente.</textoPregunta>
+    <imagenPregunta>NouEditarTutorial.jpg</imagenPregunta>
+  </pregunta>
+  <pregunta>
+    <textoCortoPregunta>Configurar tutorial</textoCortoPregunta>
+    <textoPregunta>Se llega a esta pantalla si el usuario ha elegido la opción de hacer un nuevo tutorial. En ella, el usuario puede especificar los datos básicos del nuevo tutorial: título, texto de presentación y idioma.</textoPregunta>
+    <imagenPregunta>ConfiguracioTutorial.jpg</imagenPregunta>
+  </pregunta>
+  <pregunta>
+    <textoCortoPregunta>Editar tutorial</textoCortoPregunta>
+    <textoPregunta>Ésta es la pantalla principal en la edición de un tutorial, ya sea nuevo o existente. Permite:
+- añadir una nueva pantalla
+- editar una pantalla existent (eligiéndola del desplegable 'pantallas')
+- guardar el tutorial (siempre que tenga un mínimo de una pantalla)
+- acceder a la opción de ayuda (abre la ayuda en el navegador web del usuario)
+- salir sin guardar el tutorial
+La parte inferior de la pantalla contiene un visualizador que permite monitorizar el estado y los cambios del tutorial a lo largo del proceso de edición.</textoPregunta>
+    <imagenPregunta>EditarTutorial.jpg</imagenPregunta>
+  </pregunta>
+  <pregunta>
+    <textoCortoPregunta>Editar pantalla</textoCortoPregunta>
+    <textoPregunta>Se llega a esta pantalla des de 'Editar tutorial'. Aparecerà vacía en caso de edición de nueva pantalla, y con datos cargados en caso de edición de pantalla existente. Una pantalla de un tutorial se compone de: título, texto explicativo e imagen (opcional). Las opciones disponibles son:
+- inserir o modificar título
+- inserir o modificar texto explicativo
+- elegir o eliminar imagen (gif o jpg)
+- guardar la pantalla
+- eliminar la pantalla
+- acceder a la ayuda(se abre en el navegador web del usuario)
+- salir sin salvar la pantalla (la aplicación retorna a 'Editar tutorial)
+La parte inferior de la pantalla contiene un visualizador que permite monitorizar el estado y los cambios del tutorial a lo largo del proceso de edición.</textoPregunta>
+    <imagenPregunta>EditarPantalla.jpg</imagenPregunta>
+  </pregunta>
+</cuestionario>

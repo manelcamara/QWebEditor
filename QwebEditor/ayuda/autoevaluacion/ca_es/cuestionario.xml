@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<cuestionario idioma="ca_ES" presentacion="Aquest tutorial explica com fer o editar qüestionaris d'autoavaluació amb Q?WebEditor" tipoCuestionario="tutorial" titulo="Fer o editar qüestionaris d'autoavaluació amb QWebEditor">
+  <pregunta>
+    <textoCortoPregunta>Triar idioma i veure presentació de l'editor</textoCortoPregunta>
+    <textoPregunta>En executar Q?WebEditor, l'aplicació sol·licita que es triï l'idioma de l'editor. Una vegada fet, l'editor presenta una pantalla informativa amb dades sobre l'autor i la llicència de distribució del programari. En acceptar, l'aplicació presenta el menú principal.</textoPregunta>
+    <imagenPregunta>PresentacioIdioma.jpg</imagenPregunta>
+  </pregunta>
+  <pregunta>
+    <textoCortoPregunta>Menú principal: crear nou qüestionari o editar un existent</textoCortoPregunta>
+    <textoPregunta>Al menú principal es pot triar si es vol fer un qüestionari d'autoavaluació nou o editar un existent. En el primer cas, l'editor condueix a la pantalla de configuració d'un nou qüestionari (veure 'Configurar qüestionari'). En el segon cas, l'editor permet navegar per l'estructura d'arxius locals i localitzar el paquet scorm a editar (fitxer zip). Si el fitxer és vàlid, l'editor condueix a la pantalla 'Editar qüestionari', que ja té carregat en memòria el qüestionari font.</textoPregunta>
+    <imagenPregunta>NouEditarAutoavaluacio.jpg</imagenPregunta>
+  </pregunta>
+  <pregunta>
+    <textoCortoPregunta>Configurar qüestionari</textoCortoPregunta>
+    <textoPregunta>S'arriba a aquesta pantalla si l'usuari ha triat l'opció de fer un nou qüestionari. En aquesta, l'usuari pot especificar les dades bàsiques del nou qüestionari: títol, text de presentació i idioma.</textoPregunta>
+    <imagenPregunta>ConfiguracioQuestionari.jpg</imagenPregunta>
+  </pregunta>
+  <pregunta>
+    <textoCortoPregunta>Editar qüestionari</textoCortoPregunta>
+    <textoPregunta>És aquesta la pantalla principal en l'edició d'un qüestionari, ja sigui nou o existent. Permet:
+- afegir una nova pregunta
+- editar una pregunta existent (triant-la del desplegable 'preguntes')
+- desar el qüestionari (sempre que tingui un mínim d'una pregunta amb al menys una resposta correcta)
+- accedir a l'opció d'ajuda (obre ajuda en navegador web de l'usuari)
+- sortir sense desar el qüestionari
+La part inferior de la pantalla conté un visualitzador que permet monitoritzar l'estat i els canvis del qüestionari al llarg del procés d'edició.</textoPregunta>
+    <imagenPregunta>EdicioQuestionari.jpg</imagenPregunta>
+  </pregunta>
+  <pregunta>
+    <textoCortoPregunta>Editar pregunta</textoCortoPregunta>
+    <textoPregunta>S'arriba a aquesta pantalla des de 'Editar qüestionari'. Apareixerà buida en cas de nova pregunta, i amb dades carregades en cas d'edició de pregunta existent. Una pregunta es composa de: text, imatge (opcional) i conjunt de respostes. Les opcions disponibles són:
+- inserir o modificar text
+- triar o eliminar imatge (gif o jpg)
+- desar la pregunta
+- eliminar la pregunta
+- afegir o editar resposta
+- accedir a l'ajuda (s'obre al navegador web de l'usuari)
+- sortir sense desar la pregunta (l'aplicació torna a 'Editar qüestionari')
+La part inferior de la pantalla conté un visualitzador que permet monitoritzar l'estat i els canvis del qüestionari al llarg del procés d'edició.</textoPregunta>
+    <imagenPregunta>EdicioPregunta.jpg</imagenPregunta>
+  </pregunta>
+  <pregunta>
+    <textoCortoPregunta>Editar resposta</textoCortoPregunta>
+    <textoPregunta>S'arriba a aquesta pantalla des de 'Editar pregunta'. La pantalla estarà buida si la resposta és nova, i presentarà dades si s'està editant una pregunta existent. Una resposta es composa d'un text i un tipus (correcta o incorrecta). La pantalla permet:
+- inserir o modificar text
+- marcar o canviar tipus de resposta
+- desar la resposta
+- eliminar la resposta
+- accedir a l'ajuda (s'obre al navegador de l'usuari)
+- sortir sense desar la resposta (es torna a 'Editar pregunta')</textoPregunta>
+    <imagenPregunta>EdicioResposta.jpg</imagenPregunta>
+  </pregunta>
+  <pregunta>
+    <textoCortoPregunta>Exemple qüestionari resultat</textoCortoPregunta>
+    <textoPregunta>Aquesta pantalla mostra el resultat d'un qüestionari d'autoavaluació: pantalles pregunta/respostes i informe final de resultats.</textoPregunta>
+    <imagenPregunta>ExempleAutoavaluacio.jpg</imagenPregunta>
+  </pregunta>
+</cuestionario>
